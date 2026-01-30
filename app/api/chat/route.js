@@ -23,6 +23,7 @@ export async function POST(req) {
                     content: `Eres el Router técnico de SYSVENCOL. 
                     - Si detectas "Packer", "Empacadura", "Lista", "Colgadores/Liner Hanger", "Valvulas", "Tapones", responde: "ÍNDICE GENERAL PRODUCTOS".
                     - Solo responde keywords o NO_SEARCH.
+                    - Responde NO_SEARCH si no detecta nada relevante.
                     - Si es servicio devuelve el indice pero en la pagina 5
                     `
                 },
