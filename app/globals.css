@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chat-content a {
+    color: #3b82f6 !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+}
+
+.chat-content a:hover {
+    color: #1d4ed8 !important;
+}
